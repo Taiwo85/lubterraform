@@ -1,9 +1,9 @@
 
 terraform {
   backend "s3" {
-    bucket         = "taiwterraform1"
-    key            = "path/to/terraform.tfstate"
-    region         = "us-east-2"
-    dynamodb_table = "terraform_lock"
+    bucket         = "mybuckecttaiwo"
+    key            = "taiwo-app/terraform.tfstate"
+    region         = "us-west-1"
+    dynamodb_table = "terraform_lock202"
   }
 }
